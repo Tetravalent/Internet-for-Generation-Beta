@@ -1,0 +1,356 @@
+/* outline orange #ffd317 thickness 1
+outline red #ffa7a7 thickness  1, outline #7bf1f6 */
+
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Tiro Bangla', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=Kanit:wght@300&family=Tiro+Bangla&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .into {
+    transform: rotate(0.5turn);
+    transition: transform 1s ease;
+    animation: bodyrotate linear 0.8ss 2;
+} */
+
+
+.absolute {
+    position: fixed;
+    background-color: #151515;
+    top: 50vh;
+    color: #7bf0ea;
+    border-color: #dd8743;
+    border-width: 2px;
+    font-size: 13px;
+    cursor: pointer;
+    z-index: 5;
+    height: 50px;
+    width: 50px;
+    left: 10px;
+    border-radius: 50px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+pre {
+    color: #f0ecdd;
+    font-size: 24.75px;
+    font-weight: 200;
+    /* line-height: 1.3;
+    word-spacing: 4px; */
+    letter-spacing: 2px;
+    z-index: 9;
+    font-family: 'Ubuntu', sans-serif;
+    /* overflow: initial; */
+}
+
+.inline {
+    color: #f0ecdd;
+    font-size: 24.75px;
+    font-weight: 200;
+    /* line-height: 1.3;
+    word-spacing: 4px; */
+    letter-spacing: 2px;
+    z-index: 9;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: initial;
+
+}
+
+.thematicbreak {
+    margin-bottom: 40px;
+    visibility: hidden;
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigation {
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+    background-color: black;
+}
+
+
+.logo {
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 145px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.hovering {
+    width: 80px;
+    margin-top: 15px;
+    margin-left: -81px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 40px 25px 40px 25px;
+
+}
+
+
+nav ul li {
+    color: #dd8743;
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+nav ul li:hover {
+    color: white;
+    list-style: none;
+    padding: 0 25px;
+    cursor: pointer;
+    border-color: #7f00db;
+    border-width: 5px;
+}
+
+.sectionstart {
+    background-color: #151515;
+    padding: 20px 110px;
+    align-items: center;
+}
+
+.sectionpast {
+    background-color: #151515;
+    padding: 25px 170px;
+    align-items: center;
+}
+
+.raylight {
+    width: 85vw;
+    clip-path: polygon(50% 0%, 69.76% 16.86%, 69.13% 46.46%, 77.42% 64.49%, 50% 100%, 18.32% 99.84%, 0.77% 47.96%, 9.76% 9.80%, 19.13% 0.22%);
+    shape-outside: polygon(48.97% -0.01%, 66.66% 15.64%, 66.33% 47.02%, 74.78% 63.81%, 46.8% 99.73%, 18.32% 99.84%, 0.77% 47.96%, 8.6% 6.64%, 13.87% 0.08%);
+    float: left;
+    position: relative;
+    left: -70px;
+    padding-top: 45px;
+}
+
+.content {
+    color: #f0ecdd;
+    /* padding: 10px 45px; */
+    /* margin: 50px 50px; */
+    font-size: 24.75px;
+    font-weight: 200;
+    line-height: 1.3;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    z-index: 9;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 45px 0;
+    font-family: 'Cinzel', serif;
+    color: #dd8743;
+}
+
+.intos {
+    margin-bottom: 45px;
+    padding-top: 45px;
+    font-family: 'Cinzel', serif;
+    color: #dd8743;
+
+}
+
+/* .displayonstart{
+    overflow: scroll;e
+    white-space: pre;
+} */
+
+.blockchainworld {
+    width: 90vw;
+    margin-top: 45px;
+}
+
+.synapse {
+    width: 70vw;
+    float: left;
+    position: relative;
+    margin-top: 45px;
+    clip-path: polygon(86.66% 22.74%, 92.09% 56.49%, 80.93% 90.94%, 50% 100%, 14.19% 92.35%, 1.46% 64.82%, 10.53% 11.78%, 36.55% 0.87%, 68.36% 1.41%);
+    shape-outside: polygon(89.82% 23.2%, 95.81% 58.95%, 83.16% 97.1%, 49.91% 100.62%, 14.19% 92.35%, 1.46% 64.82%, 10.53% 11.78%, 36.55% 0.87%, 68.36% 1.41%);
+    display: inline flow;
+}
+
+
+footer {
+    background-color: black;
+    height: 50vh;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+.gennext {
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+    z-index: 2;
+
+}
+
+ol {
+    color: #dd8743;
+    float: right;
+    margin: 40px 40px 40px 60px;
+    list-style: none;
+}
+
+
+ol li {
+    margin: 18px 18px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #f0ecdd;
+    margin: 0px 18px;
+    position: relative;
+    bottom: -186px;
+    float: inline-start;
+    left: 610px;
+}
+
+.twitter {
+    position: relative;
+    top: 69px;
+    left: -55px;
+    color: #7bf0ea;
+    cursor: pointer;
+}
+
+
+.medium {
+    position: relative;
+    top: 105px;
+    left: -87px;
+    color: #7bf0ea;
+    cursor: pointer;
+}
+
+
+.bottom {
+    bottom: 25px;
+    position: relative;
+}
+
+.timestamping {
+    font-family: 'Ubuntu', sans-serif;
+    color: #d24040;
+}
+
+.container {
+    background-color: #151515;
+    color: #f0ecdd;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+}
+
+.about {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    margin: 200px 100px;
+    font-size: 24.75px;
+    font-weight: 200;
+    line-height: 1.3;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+
+.contentcontainer {
+    background-color: #151515;
+    height: 69vh;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px;
+}
+
+.unregulated {
+    color: #f0ecdd;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 25px 100px;
+    font-stretch: expanded;
+    font-size: 20.75px;
+    font-weight: 200;
+    line-height: 1.3;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+
+}
+
+.unregulated li {
+    margin: 10px 10px;
+}
+
+.aboutinabout {
+    left: 185px;
+    position: relative;
+    top: 90px;
+    font-size: x-large;
+}
+
+.references {
+    font-family: 'Tiro Bangla', serif;
+    position: relative;
+    z-index: 1;
+    left: -236px;
+    font-size: 20px;
+}
+
+/* @keyframes bodyrotate {
+    100% {
+        transform: skew(180deg, 360deg);
+    }
+} */
+
+/* .raylight:hover {
+    width: 85vw;
+    clip-path: polygon(50% 0%, 69.76% 16.86%, 69.13% 46.46%, 77.42% 64.49%, 50% 100%, 18.32% 99.84%, 0.77% 47.96%, 8.6% 6.64%, 13.87% 0.08%);
+    shape-outside: polygon(50% 0%, 69.76% 16.86%, 69.13% 46.46%, 77.42% 64.49%, 50% 100%, 18.32% 99.84%, 0.77% 47.96%, 8.6% 6.64%, 13.87% 0.08%);
+} 
+
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Tiro Bangla', serif;
+font-family: 'Ubuntu', sans-serif; */
