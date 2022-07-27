@@ -136,13 +136,12 @@ nav ul li:hover {
 
 .sectionstart {
     background-color: #151515;
-    padding: 20px 110px;
-    align-items: center;
+    padding: 20px 163px;
 }
 
 .sectionpast {
     background-color: #151515;
-    padding: 25px 170px;
+    padding: 25px 200px;
     align-items: center;
 }
 
@@ -193,7 +192,7 @@ h6 {
 } */
 
 .blockchainworld {
-    width: 90vw;
+    width: 78vw;
     margin-top: 45px;
 }
 
@@ -336,6 +335,7 @@ ol li {
     left: -236px;
     font-size: 20px;
 }
+
 
 /* @keyframes bodyrotate {
     100% {
